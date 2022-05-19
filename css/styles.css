@@ -1,0 +1,53 @@
+html {
+  color:black;
+  background-color: blanchedalmond;
+}
+header {
+  font-size: 3rem;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline 5px darkred;
+}
+h2 {
+  display: inline;
+  margin-left: 125px;
+  color:darkblue;
+}
+.Seattle {
+  margin-left: 125px;
+  position:sticky;
+}
+.Tokyo {
+  margin-left: 200px;
+}
+.Dubai {
+  margin-left: 200px;
+}
+.Paris {
+  margin-left: 200px;
+}
+.Lima {
+  margin-left: 200px;
+}
+
+li {
+  border: 5px black solid;
+  overflow:hidden;
+}
+
+ul {
+  column-count: 5;
+  overflow:hidden;
+}
+
+img {
+  height:200px;
+  width: 550px;
+  float: right;
+}
+footer {
+  text-align: left;
+  width: 550px;
+  height: auto;
+  color:blue;
+}
