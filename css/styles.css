@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 html {
   color:black;
   background-color: blanchedalmond;
+  font-family: muli;
 }
 header {
   font-size: 3rem;
@@ -8,17 +10,21 @@ header {
   font-style: italic;
   text-decoration: underline 5px darkred;
 }
+
+main {
+  margin: 25px 10px;
+}
 h2 {
   display: inline;
   margin-left: 125px;
+  position:sticky;
   color:darkblue;
 }
 .Seattle {
   margin-left: 125px;
-  position:sticky;
 }
 .Tokyo {
-  margin-left: 200px;
+  margin-left: 160px;
 }
 .Dubai {
   margin-left: 200px;
@@ -33,6 +39,10 @@ h2 {
 li {
   border: 5px black solid;
   overflow:hidden;
+  /* border-bottom: none; */
+}
+li:nth-child(2n + 1) {
+  color: blue;
 }
 
 ul {
