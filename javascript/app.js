@@ -81,7 +81,7 @@ let storeHours = [
   "7pm",
   "8pm",
 ];
-//Thank you to Adamn Owada and David Souther for the help
+//Thank you to Adam Owada and David Souther for the help
 function calculateCookiesSold() {
   for (let i = 0; i < salmonCookies.length; i++) {
     let salmonCookie = salmonCookies[i];
@@ -96,7 +96,7 @@ function calculateCookiesSold() {
         randomCustomers * salmonCookie.averageCookie
       );
       // console.log(
-        // `${storeHour} ${randomCustomers} customers in ${salmonCookie.location}`
+      // `${storeHour} ${randomCustomers} customers in ${salmonCookie.location}`
       // );
       // console.log(cookiesSold + " cookies sold");
       let cookieSummary = document.createElement("li");
