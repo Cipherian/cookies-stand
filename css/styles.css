@@ -44,7 +44,9 @@ li {
 li:nth-child(2n + 1) {
   color: blue;
 }
-
+li:nth-child(2n + 1) {
+  color:blue;
+}
 ul {
   column-count: 5;
   overflow:hidden;
